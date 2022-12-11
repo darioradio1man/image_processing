@@ -1,6 +1,5 @@
 from skimage.io import imread, imsave
 from skimage import img_as_float, img_as_ubyte
-import numpy as np
 
 img = imread('img.png')
 img_f = img_as_float(img)

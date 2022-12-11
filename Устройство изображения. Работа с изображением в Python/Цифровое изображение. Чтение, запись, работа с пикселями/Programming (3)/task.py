@@ -1,4 +1,4 @@
-from skimage.io import imread
+from skimage.io import imread, imshow, imsave
 import numpy as np
 
 image = imread('img.png')
